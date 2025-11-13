@@ -67,11 +67,14 @@ body {
 }
 
   #about {
-height: 100vh;
+height: 30vh;
+/* changes gap between about and education*/
 display: flex;
 max-width: 1200px;
 width: 100%;
-padding-left: 40px;}
+padding-left: 40px;
+margin-bottom: 25vh;}
+
 
 #about img {
   width: 300px;
@@ -85,15 +88,18 @@ padding-left: 40px;}
 .container div {
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 20px;
+  margin-right: 20vh;
+  padding: 10px;
   font-size: 24px;
+}
+#education heading {
+margin-left: 20vh;
 }
 
 
-
 #projects {
-      height: 10vh; 
       
+      margin-top: 10vh;
 }
 }
 
