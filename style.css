@@ -27,7 +27,7 @@
       display: flex;
       gap: 25px;
       margin: 0;
-      padding: 25;
+      padding: 25px;
 
     }
 
@@ -85,21 +85,47 @@ margin-bottom: 25vh;}
 }
 
 /* Education */
-.container div {
+.education-item{
   background-color: #f1f1f1;
   margin: 10px;
   margin-right: 20vh;
   padding: 10px;
   font-size: 24px;
 }
-#education heading {
+.education .heading {
 margin-left: 20vh;
+}
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 
 
 #projects {
       
       margin-top: 10vh;
+}
+#projects {
+  display: flex;
+  flex-direction: row; /* stacked vertically */
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0px;
+}
+
+.project-item {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 0px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  width: 60%;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
 }
 }
 
@@ -112,7 +138,7 @@ body {
 
 section h1 {
   background-color:#111;
-  font: white;
+  color: rgb(255, 255, 255);
   padding: 60px 40px;
   margin: 20px 0;
 }
