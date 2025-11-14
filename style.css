@@ -228,7 +228,7 @@ body {
 
 .skill-list {
   min-width: 300px;  
-  padding-bottom: 60px; 
+  padding-bottom: 100vh; 
 }
 
 .skills-group {
